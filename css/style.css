@@ -1,0 +1,529 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 16px;
+	line-height: 1.7em;
+	font-family: 'Open Sans', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+/*header section css code start here*/
+
+.header{
+	width: 100%;
+	height: 100vh;
+	padding: 20px 0px ;
+	background: url("../images/home.png") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar-brand{
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7em;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0px 11px 0px;
+    
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+     color: #FFD700;
+    
+    
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+    color: #FFD700; 
+    
+}
+.header .navbar .navbar-nav .nav-item .btn{
+	font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    color: #fff;
+    transition: 1s;
+}
+.header .navbar .navbar-nav .nav-item .btn:hover{
+	background: transparent;
+    color: #fff;
+}
+.header .navbar .navbar-nav .nav-item .btn:focus{
+	background: transparent;
+    color: #fff;
+}
+.title{
+    width: 100%;
+    padding: 110px 0px;
+}
+.title h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7em;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.title h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.title p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #fff;
+    padding: 25px 0px;   
+    
+}
+.title .double-btn{
+    width: 100%;
+    padding: 20px 20px;
+}
+.title .double-btn .btn-secondary{
+   font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 40px 10px;
+    background: #DC3635;
+    border-radius: 0px;
+    transition: 1s;
+
+}
+.title .double-btn .btn-secondary:hover{
+    background: transparent;
+    color: #DC3635;
+   
+
+}
+.title .double-btn .btn-secondary:focus{
+    background: transparent;
+    color: #DC3635;
+   
+
+}
+.title .double-btn .btn-danger{
+   font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+     padding: 10px 20px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 0px;
+    margin: 0px 20px 0px;
+
+}
+.title .double-btn .btn-danger:hover{
+    background: transparent;
+    color: #fff;
+    
+
+}
+.title .double-btn .btn-danger:focus{
+    background: transparent;
+    color: #fff;
+}
+/*header section css code start here*/
+/*about-me section css code start here*/
+.about-me{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/about b.jpg") center top no-repeat;
+    background-size: cover;
+
+}
+.about-me img{
+   width: 110%;
+   padding: 0px 28px 0px;
+}
+.about-me h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7em;
+    color: #000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 40px 0px 0px;
+
+}
+.about-me p{
+     font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #000;
+    padding: 25px 0px;   
+
+}
+
+.about-me .skill-bar{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 0px 30px;
+}
+/*
+.about-me .skill-bar .bar{
+    margin: 20px 0px;
+}
+.about-me .skill-bar .bar:first-child{
+    margin-top: 0px;
+}
+.about-me .skill-bar .bar span{
+    font-size: 20px;
+    
+    font-weight: 500;
+}
+
+.about-me .skill-bar .progress-line{
+   
+    height: 10%;
+    width: 100%;
+    background: #CD853F;
+}
+*/
+/*about-me section css code end here*/
+
+/*service section css code start here*/
+.service{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.service h1{
+     font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7em;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.service p{
+     font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service .card{
+    border-radius: 2px solid #C0C0C0;
+    border-radius: 0px;
+    padding: 20px 10px;
+
+}
+.service .card img{
+    border-radius: 0px;
+}
+.service .card h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    color: #000;
+}
+.service .card p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #000;
+    text-align: center;
+    margin-bottom: -21px;
+}
+
+/*service section css code end here*/
+/*projects section css code strt here*/
+
+.project{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.project h1{
+     font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    color: #000;
+}
+.project p{
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 1.7em;
+     text-transform: uppercase;
+     color: #000;
+}
+.project .project-quick{
+    padding: 33px 30px 0px 93px;
+
+}
+.project .card-body{
+    margin-top: 150px;
+}
+.project .card-body .card-title{
+    padding: 80px 0px 0px;
+}
+.project .card-body h5{
+     font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+   
+}
+.project .card-body p{
+     font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+   
+}
+.project .card-body img{
+    margin: -33px 0px 11px;
+    width: 252px;
+    height: 5px;
+   
+}
+.project .card-body .button{
+    padding: 50px 0px;
+}
+.project .card-body .button .btn-primary{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #000;
+    background-color: #D3D3D3;
+    border: 3px solid #D3D3D3;
+    border-radius: 30px;
+    transition: 1s;
+}
+.project .card-body .button .btn-primary:hover{
+   
+    color: #4B0082;
+    background-color: #D3D3D3;
+    border: 3px solid #D3D3D3;
+}
+.project .card-body .button .btn-primary:focus{
+   
+    color: #000;
+    background-color: transparent;
+    border: 3px solid #D3D3D3;
+}
+.project .project-lawyer{
+    padding: 33px 30px 0px 93px;
+
+}
+.project .project-lawyer .card-body{
+    margin-top: 572px;
+
+}
+/*projects section css code end here*/
+/*testimonial section css code end here*/
+
+.tetimonial{
+    width: 100%;
+    
+    padding: 80px 0px;
+    background: #DC3536;
+    
+}
+.tetimonial h1{
+     font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+
+.tetimonial p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+.tetimonial .review{
+    width: 100%;
+    padding: 70px 0px;
+
+}
+.tetimonial .review img{
+   position: relative;
+  
+}
+
+.tetimonial .review .clients-re{
+      position: relative;
+      bottom: 227px;
+}
+.tetimonial .review .clients-re h1{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+.tetimonial .review .clients-re h5{
+     font-size: 17px;
+    padding: 9px 20px 10px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+.tetimonial .review .star{
+    position: relative;
+    bottom: 17px;
+    left: 21px;
+
+}
+.tetimonial .line-2{  
+    margin: -261px 0;
+    text-align: center;
+}
+
+
+
+/*testimonial section css code end here*/
+
+
+
+/*contact-me section css code start here*/
+.contact-me{  
+    width: 100%;
+    padding: 80px 0px;
+    background: #DC3536;
+}
+.contact-me .contact-me-text{
+    margin: 80px 0px;
+
+}
+.contact-me h1{  
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -280px;
+}
+.contact-me img{  
+   text-align: center;
+   color: #fff;
+}
+.contact-me p{  
+   font-size: 17px;  
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+
+}
+.contact-me .email{
+    text-align: center;
+    margin-left: 357px;
+}
+.contact-me .email .pl{
+    padding: 10px 97px 10px 16px;
+    border: 2px solid #000;
+}
+.contact-me .btn-primary{
+    font-size: 15.5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 20px 10px;
+    background: #493C3B;
+    color: #fff;
+    border-radius: 0px;
+    margin: 0px 30px 0px;
+    border: 2px solid #000;
+    transition: 1s;
+
+}
+.contact-me .btn-primary:hover{
+     background: transparent;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+.contact-me .btn-primary:focus{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+/*contact-me section css code end here*/
+
+/*social media section css code start here*/
+.footer{
+    width: 100%;
+    padding: 25px 0px;
+    background: #000;
+}
+.footer h1{
+   font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.footer .social-media-icon{
+     text-align: center;
+      
+
+}
+.footer .social-media-icon ul{
+    
+}
+.footer .social-media-icon li{
+    ist-style: none;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    margin: 0px 20px 0px;
+
+}
+.footer .social-media-icon li a{
+    text-align: center;
+    color: #fff;
+}
+/*social media section css code end here*/
+.copyright{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #000080;
+}
+.copyright .inner-copyright-text p{
+    
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+}
